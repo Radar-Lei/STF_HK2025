@@ -11,7 +11,7 @@ This research project aims to develop an innovative Large Language Model (LLM)-b
 ### 2.1 Primary Objectives
 
 **Objective 1: Develop an LLM-Integrated Traffic Simulation Framework**
-Create a novel AI-powered system that integrates state-of-the-art Large Language Models with microscopic traffic simulation platforms such as SUMO or MATSim, enabling natural language scenario generation that removes the need for specialized expertise and cuts setup time from 15+ minutes to under 2 minutes per scenario.
+Create a novel AI-powered system that integrates state-of-the-art Large Language Models with microscopic traffic simulation platforms such as SUMO, enabling natural language scenario generation that removes the need for specialized expertise and cuts setup time from 15+ minutes to under 2 minutes per scenario.
 
 **Objective 2: Enhance Accessibility and User-Friendliness for Hong Kong Transportation Planning**
 Lower the barrier to entry for transportation planners, policymakers, and researchers in Hong Kong by delivering an interface that supports multi-language and real-time conversational scenario edits, enabling rapid iterative policy testing without prior simulation expertise.
