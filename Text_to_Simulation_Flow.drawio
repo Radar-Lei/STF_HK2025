@@ -1,169 +1,169 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
-  <diagram id="diagram-text-to-simulation" name="Text-to-Simulation Flow">
-    <mxGraphModel dx="1697" dy="1247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="title-proposal" value="&lt;b&gt;Text to Simulation: LLM for AI-based Urban Mobility Simulation in Hong Kong&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#0d47a1;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="100" y="40" width="940" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="node-objectives" value="&lt;b&gt;Objectives&lt;/b&gt;&lt;br&gt;Democratize traffic simulation through LLM interaction; generate, customize, and analyze scenarios; reduce congestion and emissions; improve safety and network efficiency." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#bf360c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="100" y="140" width="940" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="node-3-1" value="&lt;b&gt;Multi-Source Traffic Data Integration&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="89" y="273" width="340" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-1-sources" value="&lt;b&gt;Data Sources&lt;/b&gt;&lt;br&gt;CCTV, LiDAR, OSM roads, incident text" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="260" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-1-preprocess" value="&lt;b&gt;Preprocess &amp; Feature Extraction&lt;/b&gt;&lt;br&gt;Clean, align time-space, derive flow/speed/density" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="750" y="260" width="290" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-1-anomaly" value="&lt;b&gt;Anomaly Detection&lt;/b&gt;&lt;br&gt;LLM context to flag incidents/special events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="340" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-1-digitaltwin" value="&lt;b&gt;HK Data Update&lt;/b&gt;&lt;br&gt;Continuous network/traffic state refresh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="750" y="340" width="290" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="node-3-2" value="&lt;b&gt;Multi-Agent Text-to-Simulation Architecture&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="89" y="453" width="340" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-2-planner" value="&lt;b&gt;Planner Agent&lt;/b&gt;&lt;br&gt;Parse sinmulation intents, plan tool calls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="440" width="220" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-2-tools" value="&lt;b&gt;Tool Layer / APIs&lt;/b&gt;&lt;br&gt;SUMO adapters, data retrieval, validation utilities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="710" y="440" width="330" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-2-state" value="&lt;b&gt;State Management&lt;/b&gt;&lt;br&gt;Workflow coordination, context memory, error recovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="520" width="220" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-2-io" value="&lt;b&gt;Bidirectional I/O&lt;/b&gt;&lt;br&gt;User NL input → structured commands; simulation outputs → NL summaries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="710" y="520" width="330" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="node-3-3" value="&lt;b&gt;Simulation Modules with LLM Fine-Tuning&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#303f9f;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="89" y="679" width="340" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-3-network" value="&lt;b&gt;Network Generation&lt;/b&gt;&lt;br&gt;Parse OSM, junction logic, lane configs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="640" width="230" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-3-poi" value="&lt;b&gt;POI / AOI Generation&lt;/b&gt;&lt;br&gt;OD anchors: malls, offices, schools, housing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="720" y="640" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-3-demand" value="&lt;b&gt;Travel Demand&lt;/b&gt;&lt;br&gt;OD matrices, activity chains from surveys &amp; mobile data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="710" width="230" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-3-routing" value="&lt;b&gt;Routing &amp; Assignment&lt;/b&gt;&lt;br&gt;Path sets, SUE, incident rerouting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="720" y="710" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-3-signals" value="&lt;b&gt;Signal Control&lt;/b&gt;&lt;br&gt;Plans, green waves, PT priority, adaptive logic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="780" width="570" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="node-3-4" value="&lt;b&gt;Simulation Validation &amp;amp; Evaluation&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
-          <mxGeometry x="89" y="883" width="340" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-4-quant" value="&lt;b&gt;Quantitative Calibration&lt;/b&gt;&lt;br&gt;Real-world travel time, speed, density VS simulation observation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="880" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-4-qual" value="&lt;b&gt;Qualitative Review&lt;/b&gt;&lt;br&gt;Expert realism checks for HK context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="760" y="880" width="280" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-4-scenarios" value="&lt;b&gt;Scenario Evaluation&lt;/b&gt;&lt;br&gt;Policies (pricing, signals, road space), developments, new mobility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="470" y="950" width="280" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="n-3-4-kpi" value="&lt;b&gt;Reporting&lt;/b&gt;&lt;br&gt;Travel time, VKT, emissions, accessibility dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="780" y="950" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-title-obj" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="title-proposal" target="node-objectives" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-1-3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="node-3-1" target="node-3-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-2-3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="node-3-2" target="node-3-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-3-3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="node-3-3" target="node-3-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-1-sources-prep" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-1-sources" target="n-3-1-preprocess" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-1-anom-twin" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-1-anomaly" target="n-3-1-digitaltwin" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-2-plan-tools" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7b1fa2;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-2-planner" target="n-3-2-tools" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-2-state-io" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7b1fa2;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-2-state" target="n-3-2-io" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-3-network-poi" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#303f9f;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-3-network" target="n-3-3-poi" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-3-demand-route" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#303f9f;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-3-demand" target="n-3-3-routing" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-4-quant-qual" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-4-quant" target="n-3-4-qual" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-3-4-scen-kpi" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-4-scenarios" target="n-3-4-kpi" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-1" target="n-3-1-sources">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="310" as="sourcePoint" />
-            <mxPoint x="480" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-1" target="n-3-1-anomaly">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="395" as="sourcePoint" />
-            <mxPoint x="481" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7b1fa2;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-2" target="n-3-2-planner">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="510" as="sourcePoint" />
-            <mxPoint x="480" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7b1fa2;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-2" target="n-3-2-state">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="535" as="sourcePoint" />
-            <mxPoint x="491" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#303f9f;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-3" target="n-3-3-network">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="590" y="730" as="sourcePoint" />
-            <mxPoint x="610" y="730" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#303f9f;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-3" target="n-3-3-signals">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="740" as="sourcePoint" />
-            <mxPoint x="460" y="740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-4" target="n-3-4-quant">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="940" as="sourcePoint" />
-            <mxPoint x="710" y="940" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-4" target="n-3-4-scenarios">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="1070" as="sourcePoint" />
-            <mxPoint x="481" y="1040" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IjROJEOiP7G0IyBb-Ycq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.376;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="node-objectives" target="n-3-1-sources">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="200" as="sourcePoint" />
-            <mxPoint x="580" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="diagram-text-to-simulation" name="Text-to-Simulation Flow">
+        <mxGraphModel dx="1192" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title-proposal" value="&lt;b&gt;Text to Simulation: LLM for AI-based Urban Mobility Simulation in Hong Kong&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#0d47a1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="40" width="940" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="node-objectives" value="&lt;b&gt;Objectives&lt;/b&gt;&lt;br&gt;Democratize traffic simulation through LLM interaction; generate, customize, and analyze scenarios; reduce congestion and emissions; improve safety and network efficiency." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#bf360c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="140" width="940" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="node-3-1" value="&lt;b&gt;Multi-Source Traffic Data Integration&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                    <mxGeometry x="89" y="273" width="340" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-1-sources" value="&lt;b&gt;Data Sources&lt;/b&gt;&lt;br&gt;CCTV, LiDAR, OSM roads, incident text" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="260" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-1-preprocess" value="&lt;b&gt;Preprocess &amp; Feature Extraction&lt;/b&gt;&lt;br&gt;Clean, align time-space, derive flow/speed/density" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="260" width="290" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-1-anomaly" value="&lt;b&gt;Anomaly Detection&lt;/b&gt;&lt;br&gt;LLM context to flag incidents/special events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="340" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-1-digitaltwin" value="&lt;b&gt;HK Data Update&lt;/b&gt;&lt;br&gt;Continuous network/traffic state refresh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="340" width="290" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="node-3-2" value="&lt;b&gt;Multi-Agent Text-to-Simulation Architecture&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                    <mxGeometry x="89" y="453" width="340" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-2-planner" value="&lt;b&gt;Planner Agent&lt;/b&gt;&lt;br&gt;Parse sinmulation intents, plan tool calls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="440" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-2-tools" value="&lt;b&gt;Tool Layer / APIs&lt;/b&gt;&lt;br&gt;SUMO adapters, data retrieval, validation utilities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="440" width="330" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-2-state" value="&lt;b&gt;State Management&lt;/b&gt;&lt;br&gt;Workflow coordination, context memory, error recovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="520" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-2-io" value="&lt;b&gt;Bidirectional I/O&lt;/b&gt;&lt;br&gt;User NL input → structured commands; simulation outputs → NL summaries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="520" width="330" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="node-3-3" value="&lt;b&gt;Simulation Modules with LLM Fine-Tuning&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#303f9f;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                    <mxGeometry x="89" y="647" width="340" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-3-network" value="&lt;b&gt;Network Generation&lt;/b&gt;&lt;br&gt;Parse OSM, junction logic, lane configs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="608" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-3-poi" value="&lt;b&gt;POI / AOI Generation&lt;/b&gt;&lt;br&gt;OD anchors: malls, offices, schools, housing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="608" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-3-demand" value="&lt;b&gt;Travel Demand&lt;/b&gt;&lt;br&gt;OD matrices, activity chains from surveys &amp; mobile data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="678" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-3-routing" value="&lt;b&gt;Routing &amp; Assignment&lt;/b&gt;&lt;br&gt;Path sets, SUE, incident rerouting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="678" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-3-signals" value="&lt;b&gt;Signal Control&lt;/b&gt;&lt;br&gt;Plans, green waves, PT priority, adaptive logic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="748" width="570" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="node-3-4" value="&lt;b&gt;Simulation Validation &amp;amp; Evaluation&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                    <mxGeometry x="89" y="851" width="340" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-4-quant" value="&lt;b&gt;Quantitative Calibration&lt;/b&gt;&lt;br&gt;Real-world travel time, speed, density VS simulation observation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="848" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-4-qual" value="&lt;b&gt;Qualitative Review&lt;/b&gt;&lt;br&gt;Expert realism checks for HK context" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="848" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-4-scenarios" value="&lt;b&gt;Scenario Evaluation&lt;/b&gt;&lt;br&gt;Policies (pricing, signals, road space), developments, new mobility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="918" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="n-3-4-kpi" value="&lt;b&gt;Reporting&lt;/b&gt;&lt;br&gt;Travel time, VKT, emissions, accessibility dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="918" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-title-obj" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="title-proposal" target="node-objectives" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-1-3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="node-3-1" target="node-3-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-2-3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="node-3-2" target="node-3-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-3-3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="node-3-3" target="node-3-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-1-sources-prep" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-1-sources" target="n-3-1-preprocess" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-1-anom-twin" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-1-anomaly" target="n-3-1-digitaltwin" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-2-plan-tools" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7b1fa2;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-2-planner" target="n-3-2-tools" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-2-state-io" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7b1fa2;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-2-state" target="n-3-2-io" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-3-network-poi" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#303f9f;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-3-network" target="n-3-3-poi" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-3-demand-route" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#303f9f;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-3-demand" target="n-3-3-routing" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-4-quant-qual" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-4-quant" target="n-3-4-qual" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-3-4-scen-kpi" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-4-scenarios" target="n-3-4-kpi" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-1" target="n-3-1-sources" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="310" as="sourcePoint"/>
+                        <mxPoint x="480" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-1" target="n-3-1-anomaly" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="395" as="sourcePoint"/>
+                        <mxPoint x="481" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7b1fa2;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-2" target="n-3-2-planner" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="510" as="sourcePoint"/>
+                        <mxPoint x="480" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7b1fa2;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-2" target="n-3-2-state" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="535" as="sourcePoint"/>
+                        <mxPoint x="491" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#303f9f;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-3" target="n-3-3-network" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="590" y="698" as="sourcePoint"/>
+                        <mxPoint x="610" y="698" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#303f9f;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-3" target="n-3-3-signals" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="708" as="sourcePoint"/>
+                        <mxPoint x="460" y="708" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-4" target="n-3-4-quant" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="908" as="sourcePoint"/>
+                        <mxPoint x="710" y="908" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-4" target="n-3-4-scenarios" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="1038" as="sourcePoint"/>
+                        <mxPoint x="481" y="1008" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="IjROJEOiP7G0IyBb-Ycq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.376;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="node-objectives" target="n-3-1-sources" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="200" as="sourcePoint"/>
+                        <mxPoint x="580" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
