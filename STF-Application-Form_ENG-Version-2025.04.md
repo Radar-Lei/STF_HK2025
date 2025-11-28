@@ -76,7 +76,7 @@ III. Project Summary
 
 <table><tr><td>3. Estimated Project Cost (HK\$’000)</td><td></td></tr><tr><td>Applicant's Contribution (HK\$’000)</td><td></td></tr><tr><td>Net Amount Requested from the Fund (HK\$’000)</td><td></td></tr><tr><td>Total Estimated Project Cost (HK\$’000)</td><td></td></tr></table>
 
-<table><tr><td colspan="2">4. Schedule of the Project Period</td></tr><tr><td>Commencement Date (DD / MM / YYYY):</td><td></td></tr><tr><td>Completion Date (DD / MM / YYYY):</td><td></td></tr><tr><td>Project Duration (months):</td><td></td></tr></table>
+<table><tr><td colspan="2">4. Schedule of the Project Period</td></tr><tr><td>Commencement Date (DD / MM / YYYY):</td><td>01/04/2026</td></tr><tr><td>Completion Date (DD / MM / YYYY):</td><td>01/10/2027</td></tr><tr><td>Project Duration (months):</td><td>18</td></tr></table>
 
 <table><tr><td colspan="4">5. Related Information</td></tr><tr><td colspan="4">(a) Whether previous research has been done in relation to the proposed research work?</td></tr><tr><td colspan="4">☐ Yes. <br> (Please list previous projects and funding obtained, e.g. Innovation and Technology Fund (ITF), Universities Grants Committee (UGC)/Research Grants Council (RGC) etc.)</td></tr><tr><td>Project Reference No</td><td>Project Particulars</td><td>Funding Obtained (HK\$’000)</td><td>Status of Project</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
 
