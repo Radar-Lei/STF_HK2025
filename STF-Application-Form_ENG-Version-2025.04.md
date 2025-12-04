@@ -2,9 +2,9 @@ Smart Traffic Fund ("Fund") Application Form
 
 I. Project and Applicant Information
 
-<table><tr><td>Project Title (English):</td><td>LLM-Enhanced Smart Mobility Simulation Platform for Assessing Congestion Impacts of Ride-Hailing Policies in Hong Kong</td></tr><tr><td>Project Title (Chinese):</td><td>基於大型語言模型的智慧交通模擬平台：評估香港網約車政策對交通擁堵的影響</td></tr></table>
+<table><tr><td>Project Title (English):</td><td>LLM-Enhanced Smart Mobility Simulation Platform for Assessing Congestion Impacts of Ride-Hailing Policies in Hong Kong</td></tr><tr><td>Project Title (Chinese):</td><td>基於大型語言模型的智慧交通模擬平台: 評估香港網約車政策對交通擁堵的影響</td></tr></table>
 
-<table><tr><td>Name of the Applicant (English):</td><td>The Chinese University of Hong Kong</td></tr><tr><td>Name of the Applicant (Chinese):</td><td></td></tr><tr><td>Date of Establishment: (DD / MM / YYYY)</td><td></td></tr><tr><td>Business Registration No. (if applicable):</td><td>N/A</td></tr><tr><td>Website(s) of the Applicant (if applicable):</td><td>https://www.cuhk.edu.hk</td></tr><tr><td>Address:</td><td>The Chinese University of Hong Kong Shatin, N.T., Hong Kong <br> This address is the actual location of the Applicant. <br> \( \square \) This address is for registration purpose only, the actual office location is:</td></tr><tr><td>Email Address:</td><td>N/A</td></tr><tr><td>Telephone Number:</td><td></td></tr><tr><td>No. of Employees in Hong Kong1:</td><td>Full Time: Part Time:</td></tr></table>
+<table><tr><td>Name of the Applicant (English):</td><td>The Chinese University of Hong Kong</td></tr><tr><td>Name of the Applicant (Chinese):</td><td></td></tr><tr><td>Date of Establishment: (DD / MM / YYYY)</td><td></td></tr><tr><td>Business Registration No. (if applicable):</td><td>N/A</td></tr><tr><td>Website(s) of the Applicant (if applicable):</td><td>https://www.cuhk.edu.hk</td></tr><tr><td>Address:</td><td>The Chinese University of Hong Kong Shatin, N.T., Hong Kong <br> This address is the actual location of the Applicant. <br> ☐ This address is for registration purpose only, the actual office location is:</td></tr><tr><td>Email Address:</td><td>N/A</td></tr><tr><td>Telephone Number:</td><td></td></tr><tr><td>No. of Employees in Hong Kong1:</td><td>Full Time: Part Time:</td></tr></table>
 
 ---
 
@@ -72,61 +72,27 @@ III. Project Summary
 
 (Chi)
 
-本項目旨在研發以大型語言模型為核心的交通模擬框架，聚焦評估香港網約車政策對擁堵的影響。透過自然語言互動，讓非專業用戶也能生成、調整並分析複雜城市交通情境，支撐減少擁堵、控制排放、提升路網效率與安全。
-
-本項目採用多源數據融合框架，整合視頻監控、路網數據、交通事故報告及網約車平台營運數據。
-
-開發多智能體文本轉模擬系統，與微觀交通模擬平台無縫整合。通過自然語言指令如"模擬中環早高峰網約車增加20%的情景"直接生成完整模擬場景。
-
-實施網約車司機與乘客行為調查，將行為意圖轉化為模擬參數。
-
-針對路網生成、地理特徵識別、出行需求生成、交通分配與路徑規劃、信號控制等五個核心模擬模塊進行專門的LLM微調，並融入網約車相關的上下客區域、需求彈性、調度行為等要素。
-
-預期影響與效益：優化交通管理決策、量化不同政策下的擁堵與分流、評估道路安全影響，為智慧城市與智慧出行提供循證支持，並透過更優政策減排節能。
+本項目旨在研發以大型語言模型為核心的交通模擬框架，聚焦評估香港網約車政策對擁堵的影響；透過自然語言互動，讓非專業用戶生成、調整並分析複雜城市交通情境，支撐減少擁堵、控制排放、提升路網效率與安全。本項目採用多源數據融合框架，整合視頻監控、路網數據、交通事故報告及網約車平台營運數據；開發多智能體文本轉模擬系統，與微觀交通模擬平台無縫整合, 透過自然語言指令直接生成完整模擬場景。將實施網約車司機與乘客行為調查並轉化為模擬參數，並對路網生成、地理特徵識別、出行需求生成、交通分配與路徑規劃、信號控制等五個核心模塊進行針對性的 LLM 微調, 融入上下客區域、需求彈性、調度行為等網約車要素；預期可優化交通管理決策，量化不同政策下的擁堵與分流、評估道路安全影響，為智慧城市與智慧出行提供循證支持，並透過更優政策減排節能。
 
 (Eng)
 
-This project will develop a large-language-model-centric traffic simulation framework focused on evaluating how Hong Kong ride-hailing policies affect congestion. Through natural-language interaction, non-specialists can generate, adjust, and analyze complex urban traffic scenarios to support congestion reduction, emission control, and improvements in network efficiency and safety.
+This project will build an LLM-centric traffic simulation framework to assess how Hong Kong ride-hailing policies influence congestion; natural-language interaction lets non-specialists generate, adjust, and analyze complex urban traffic scenarios to cut congestion, curb emissions, and improve network efficiency and safety. We fuse video surveillance, road network data, traffic accident reports, and ride-hailing platform operations, and develop a multi-agent text-to-simulation system seamlessly linked to a microscopic simulator so prompts (e.g., "simulate a 20% ride-hailing increase during Central's morning peak") yield full scenarios directly. Behavioural surveys of drivers and passengers will be converted into simulation parameters, while five core modules—network generation, geographic feature recognition, travel-demand generation, traffic assignment and routing, and signal control-receive targeted LLM fine-tuning enriched with ride-hailing factors such as pick-up/drop-off
 
-We adopt a multi-source data fusion approach that integrates video surveillance, LiDAR point clouds, road network data, traffic accident reports, and ride-hailing platform operational data.
-
-We will build a multi-agent text-to-simulation system that seamlessly integrates with a microscopic traffic simulator, enabling natural-language commands such as “simulate a 20% increase in ride-hailing during Central’s morning peak” to generate full simulation scenarios directly.
-
-Behavioural surveys of ride-hailing drivers and passengers will be conducted and translated into simulation parameters.
-
-Five core modules—network generation, geographic feature recognition, travel-demand generation, traffic assignment and routing, and signal control—will undergo targeted LLM fine-tuning, enriched with ride-hailing factors such as pick-up/drop-off areas, demand elasticity, and dispatch behaviour.
-
-Expected impact and benefits: optimize traffic management decisions, quantify congestion and diversion under different policy options, assess road safety implications, provide evidence for smart city and smart mobility planning, and reduce emissions through better policy design.
+zones, demand elasticity, and dispatch behaviour; expected outcomes include stronger traffic-management decisions, quantified congestion/diversion across policy options, clearer road-safety assessment, evidence for smart-city and smart-mobility planning, and emission reductions through better policy design.
 
 <table><tr><td>3. Estimated Project Cost (HK\$’000)</td><td></td></tr><tr><td>Applicant's Contribution (HK\$’000)</td><td></td></tr><tr><td>Net Amount Requested from the Fund (HK\$’000)</td><td></td></tr><tr><td>Total Estimated Project Cost (HK\$’000)</td><td></td></tr></table>
 
 <table><tr><td colspan="2">4. Schedule of the Project Period</td></tr><tr><td>Commencement Date (DD / MM / YYYY):</td><td>01/04/2026</td></tr><tr><td>Completion Date (DD / MM / YYYY):</td><td>01/10/2027</td></tr><tr><td>Project Duration (months):</td><td>18</td></tr></table>
 
-<table><tr><td colspan="4">5. Related Information</td></tr><tr><td colspan="4">(a) Whether previous research has been done in relation to the proposed research work?</td></tr><tr><td colspan="4">☐ Yes. <br> (Please list previous projects and funding obtained, e.g. Innovation and Technology Fund (ITF), Universities Grants Committee (UGC)/Research Grants Council (RGC) etc.)</td></tr><tr><td>Project Reference No</td><td>Project Particulars</td><td>Funding Obtained (HK\$’000)</td><td>Status of Project</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
+5. Related Information
 
-☐ No.
+(a) Whether previous research has been done in relation to the proposed research work?
 
-(b) Please indicate whether the Applicant has received / has applied / is applying / plans to apply for other funding support provided by the HKSAR Government for carrying out the proposed project \( {}^{2} \) ?
+☐ Yes.
 
-Yes No
+(Please list previous projects and funding obtained, e.g. Innovation and Technology Fund (ITF), Universities Grants Committee (UGC)/Research Grants Council (RGC) etc.)
 
-Project Title: ___
-
-Name of the funding scheme/source: ___
-
-Status of Application(s):
-
-Approved (Application No.: ___)
-
-(Please specify the Approved Funding Amount
-
-HK\$/Other Currencies: ___)
-
-Rejected (Application No.: ___)
-
-Under processing (Application No.: ___)
-
-Withdrawn (Application No.: ___)
+<table id="cross-table-1"><tr><td>Project Reference No</td><td>Project Particulars</td><td>Funding Obtained (HK\$’000)</td><td colspan="2">Status of Project</td></tr><tr></tr><tr><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td></td><td></td><td></td><td colspan="2"></td></tr><tr></tr><tr><td colspan="5">☐ No.</td></tr><tr><td colspan="4">b) Please indicate whether the Applicant has received / has applied / is applying / <br>  plans to apply for other funding support provided by the HKSAR Government <br>  for carrying out the proposed project \( {}^{2} \) ?</td><td></td></tr><tr><td colspan="4">☐ Yes <br>  Project Title: ___ <br>  Name of the funding scheme/source: ___ <br>  Status of Application(s): <br>  Approved (Application No.: ___) <br>  (Please specify the Approved Funding Amount HK\$/Other Currencies: ___) <br>  Rejected (Application No.: ___) <br>  Under processing (Application No.: ___) <br>  Withdrawn (Application No.: ___)</td><td>☐ No</td></tr></table>
 
 ---
 
@@ -134,37 +100,31 @@ Withdrawn (Application No.: ___)
 
 ---
 
-IV. Project Specifications
+## IV. Project Specifications
 
-1. Project Deliverables (no more than 300 words)
+<table><tr><td colspan="3">1. Project Deliverables (no more than 300 words) <br> Please provide a brief description of the project deliverables in both qualitative and quantitative terms and the timeframe required for achieving it.</td></tr><tr><td>Deliverable</td><td>Period</td><td>Brief description of the project deliverables</td></tr><tr><td>1. Multi-Source Traffic Data Integration Module</td><td>01/04/2026 – 01/06/2026 (2 month)</td><td>Deliverables include data preprocessing pipelines, anomaly detection algorithms, and a continuously updated digital representation of Hong Kong's transportation network with at least 3 pilot districts covered.</td></tr></table>
 
-Please provide a brief description of the project deliverables in both qualitative and quantitative terms and the timeframe required for achieving it.
-
-<table><tr><td colspan="3">quantitative terms and the timeframe required for achieving it.</td></tr><tr><td>Deliverable</td><td>Period</td><td>Brief description of the project deliverables</td></tr><tr><td>1.</td><td>01/04/2026 - 30/09/2026 (6 months)</td><td>**Multi-Source Traffic Data Integration Module**: Operational data fusion framework integrating video surveillance, LiDAR, road network data, traffic incidents, and ride-hailing operational data. Deliverables include data preprocessing pipelines, anomaly detection algorithms, and a continuously updated digital representation of Hong Kong's transportation network with at least 3 pilot districts covered.</td></tr><tr><td>2.</td><td>01/04/2026 - 31/12/2026 (9 months)</td><td>**Multi-Agent Text-to-Simulation System Architecture**: Functional text-to-simulation platform with Planner Agent, Tool Layer, and State Management modules integrated with SUMO. System capable of processing natural language inputs and generating executable traffic simulation scenarios. Web-based user interface supporting interactive scenario generation.</td></tr><tr><td>3.</td><td>01/07/2026 - 31/03/2027 (9 months)</td><td>**Domain-Specific Fine-Tuned LLM Models**: Five specialized LLM models fine-tuned for (1) Road Network Generation, (2) Geographic Feature Generation, (3) Travel Demand Generation, (4) Traffic Assignment and Route Planning, and (5) Traffic Signal Control, each incorporating ride-hailing-specific parameters and achieving validation accuracy >85%.</td></tr><tr><td>4.</td><td>01/10/2026 - 30/06/2027 (9 months)</td><td>**Ride-Hailing Behavioral Survey Dataset**: Completed survey dataset with minimum 500 driver responses and 1,000 passenger responses covering supply-side elasticity, spatial-temporal availability, route choice behavior, and demand-side trip patterns, price sensitivity, and mode choice preferences. Statistical analysis report with parameter estimates for simulation calibration.</td></tr><tr><td>5.</td><td>01/01/2027 - 01/10/2027 (9 months)</td><td>**Validated Simulation Platform and Policy Assessment Report**: Fully validated simulation platform calibrated against real-world Hong Kong traffic data. Comprehensive policy assessment report evaluating at least 5 ride-hailing policy scenarios (vehicle caps, fare rules, licensing regimes) with quantitative metrics on congestion impacts, travel times, emissions, and accessibility. Pilot deployment in 1-2 government agencies for trial use.</td></tr></table>
+<table id="cross-table-2"><tr><td>2. Ride-Hailing Behavioral Survey Dataset</td><td>01/06/2026 – 01/08/2026 (2 month)</td><td>Completed survey dataset with minimum 500 driver responses and 1,000 passenger responses covering supply-side elasticity, spatial-temporal availability, route choice behavior, and demand-side trip patterns, price sensitivity, and mode choice preferences. Statistical analysis report with parameter estimates for simulation calibration.</td></tr><tr><td>3. Multi-Agent Text-to-Simulation System Architecture</td><td>01/08/2026 01/02/2027 month) <br>  - <br>  (6</td><td>Functional text-to-simulation platform with Planner Agent, Tool Layer, and State Management modules integrated with SUMO. System capable of processing natural language inputs and generating executable traffic simulation scenarios. Web-based user interface supporting interactive scenario generation.</td></tr><tr><td>4. Domain-Specific Fine-Tuned LLN Models</td><td>01/02/2027 01/06/2027 month) <br>  - <br>  (4</td><td>Five specialized LLM models fine-tuned for (1) Road Network Generation, (2) Geographic Feature Generation, (3) Travel Demand Generation, (4) Traffic Assignment and Route Planning, and (5) Traffic Signal Control, each incorporating ride-hailing-specific parameters and achieving validation accuracy >85%.</td></tr><tr><td>5. Simulation based on Ride-hailing Policy Scenarios</td><td>01/06/2027 01/10/2027 month) <br>  - <br>  (4</td><td>Fully validated simulation platform calibrated against real-world Hong Kong traffic data. Comprehensive policy assessment report evaluating some of the ride-hailing policy scenarios contextualized in Hong Kong (vehicle quota, driver eligibility, service areas, hardship tax, etc.) with quantitative metrics on congestion impacts, travel times, emissions, and accessibility. Pilot deployment in 1-2 government agencies for trial use.</td></tr></table>
 
 ## 2. Wider Total Effect
 
 Please provide details on whether this project is related to other on-going or completed Smart Traffic Fund projects and will create synergy.
 
+NA
 
-
-### 3.Key Performance Indicators
+3. Key Performance Indicators
 
 The Applicant should set out the key performance indicators for assessing the effectiveness of the project and also state specifically how to evaluate the effectiveness of the project. The focus of both the key performance indicators and the methodology should be on the outcome and impact of the project, and these should be measured quantitatively as far as possible.
 
-<table><tr><td>Key Performance Indicators</td><td>Evaluation Method</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></table>
+<table id="cross-table-3"><tr><td>Key Performance Indicators</td><td>Evaluation Method</td></tr></table>
 
-## 4. Location of Research Activities
+<table><tr><td colspan="3">4. Location of Research Activities <br> Please provide details on the geographical location(s) where the research activities will be undertaken: local vs. outside Hong Kong; in R&D Centres/universities/ Science Park, etc.</td></tr><tr><td>Location</td><td>Name/Place of Research Institute(s)</td><td>Percentage research activities to be Undertaken \( {}^{3} \) , in terms of expenditure.</td></tr><tr><td>Local</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td>Outside Hong Kong</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table>
 
-Please provide details on the geographical location(s) where the research activities will be undertaken: local vs. outside Hong Kong; in R&D Centres/universities/ Science Park, etc.
-
-<table><tr><td>Location</td><td>Name/Place of Research Institute(s)</td><td>Percentage research activities to be Undertaken \( {}^{3} \) , in terms of expenditure.</td></tr><tr><td>Local</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td>Outside Hong Kong</td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table>
-
-## 5. Project Milestones
+5. Project Milestones
 
 Please set out the milestones pertaining to the key activities and deliverables to be achieved at different stages of implementation.
 
-<table><tr><td>Milestone</td><td>Period</td><td>Key activities and deliverables involved</td></tr><tr><td>Milestone 1: Platform & Data Foundation</td><td>Month 1–6</td><td>- Stand up multi-source data pipelines (video, LiDAR, incident feeds); ingest & index &gt;50 GB multimodal data.<br> - Baseline text-to-simulation prototype linked to SUMO with ≥3 policy prompt templates.<br> - Launch driver/passenger survey and collect ≥500 completed responses.<br> - Initial KPI dashboard for travel time and congestion indices across 2 pilot districts.</td></tr><tr><td>Milestone 2: Model Integration & Pilot</td><td>Month 7–12</td><td>- Integrate LLM agents with calibrated ride-hailing demand/supply modules; run ≥10 policy scenarios.<br> - Pilot congestion mitigation testbeds; deliver interim results via ≥2 workshops with government partners.<br> - Achieve simulation error ≤15% MAPE on speeds/flows against observed sensors in pilot corridors.<br> - Release mid-term dataset and technical documentation.</td></tr><tr><td>Milestone 3: Validation & Policy Delivery</td><td>Month 13–18</td><td>- Citywide validation against detector data (MAPE ≤12% on speed, ≤10% on flow metrics).<br> - Finalize KPIs and publish interactive policy assessment toolkit; train ≥30 stakeholders in ≥2 sessions.<br> - Deliver final report and policy briefs covering ≥5 policy options with quantified impacts.<br> - Handover reproducible codebase and data catalog.</td></tr></table>
+<table><tr><td>Milestone</td><td>Period</td><td>Key activities and deliverables <br> involved</td><td></td><td></td></tr></table>
 
 ---
 
@@ -172,7 +132,9 @@ Please set out the milestones pertaining to the key activities and deliverables 
 
 ---
 
-1. Intellectual Property Rights
+<table><tr><td>1. Platform & Data Foundation</td><td>DD/MM/YYYY DD/MM/YYYY <br> (Please also indicate total no. of months)</td><td>- Stand up multi-source data pipelines (video, LiDAR, incident feeds, etc.); ingest & index multimodal data. <br> - Baseline text-to-simulation prototype linked to SUMO with \( \geq  3 \) policy prompt templates. <br> - Launch driver/passenger survey and collect \( \geq  {500} \) completed responses. <br> - Initial KPI dashboard for travel time and congestion indices across 2 pilot districts.</td></tr><tr><td>2. Model Integration & Pilot</td><td></td><td>- Integrate LLM agents with calibrated ride-hailing demand/supply modules; run ≥10 policy scenarios. <br> - Pilot congestion mitigation testbeds; deliver interim results via \( \geq  2 \) workshops with government partners. <br> - Achieve simulation error ≤15% MAPE on speeds/flows against observed sensors in pilot corridors. <br> - Release mid-term dataset and technical documentation.</td></tr><tr><td>2. Model Integration & Pilot</td><td></td><td>- Citywide validation against detector data (MAPE \( \leq  {12}\% \) on speed, \( \leq  {10}\% \) on flow metrics). <br> - Finalize KPIs and publish interactive policy assessment toolkit; train ≥30 stakeholders in \( \geq  2 \) sessions. <br> - Deliver final report and policy briefs covering \( \geq  5 \) policy options with quantified impacts. <br> - Handover reproducible codebase and data catalog.</td></tr><tr><td></td><td></td><td></td></tr></table>
+
+6. Intellectual Property Rights
 
 I/We warrant that the performance of the project and the exercise by the Government of any of the rights granted under the funding agreement will not infringe any intellectual property rights.
 
@@ -198,6 +160,8 @@ No.
 
 (d) Please set out the proposed ownership and/or right to use the IPs of the deliverables arising from the proposed project. \( {}^{4} \)
 
+The IPs arising from the proposed project will be owned by The Chinese University of Hong Kong.
+
 (e) Please set out with justifications the sharing of IP benefits among all parties concerned.
 
 7. Compliance of laws of Hong Kong
@@ -212,9 +176,9 @@ I/We declare that the proposed project complies with all regulations and laws of
 
 I/We declare that the proposed project complies with the National Security Law of Hong Kong. Under no circumstances will the Government be held liable for any breach of the law.
 
-## V. Relevance to the Scope of the Fund
+V. Relevance to the Scope of the Fund
 
-1. Please provide details on how the project relates to the Scope of the Smart Traffic Fund, namely 'Enhancing convenience of motorist', 'Enhancing efficiency of the road network or road space', 'Improving driving safety', and relevant Government's policies, including the 'Smart City Blueprint for Hong Kong 2.0'5 and/ or 'Smart Mobility Roadmap for Hong Kong' for promoting smart mobility in Hong Kong.
+1. Please provide details on how the project relates to the Scope of the Smart Traffic Fund, namely 'Enhancing convenience of motorist', 'Enhancing efficiency of the road network or road space', 'Improving driving safety', and relevant Government's policies, including the 'Smart City Blueprint for Hong Kong 2.0's and/ or 'Smart Mobility Roadmap for Hong Kong' for promoting smart mobility in Hong Kong.
 
 ---
 
@@ -248,15 +212,15 @@ Please provide details on the viability of the proposal from the technical persp
 
 The Applicant shall identify any potential privacy issues arising from the adoption of the proposed innovations and technological achievements and propose mitigation measures.
 
-<table id="cross-table-1"><tr><td>Potential privacy concern(s)</td><td>Mitigation measure(s)</td></tr><tr></tr><tr><td colspan="2">I/we \( \square \) will / \( \square \) will not engage an independent party for carrying out a Privacy Impact Assessment on verifying the compliance of prevailing privacy-related laws and regulations. Subject to the ceiling stipulated in the application guide, I/we understand that the cost will be reimbursed by the Fund.</td></tr></table>
+<table id="cross-table-4"><tr><td>Potential privacy concern(s)</td><td>Mitigation measure(s)</td></tr><tr></tr><tr><td colspan="2">I/we \( \square \) will / \( \square \) will not engage an independent party for carrying out a Privacy Impact Assessment on verifying the compliance of prevailing privacy-related laws and regulations. Subject to the ceiling stipulated in the application guide, I/we understand that the cost will be reimbursed by the Fund.</td></tr></table>
 
 <table><tr><td colspan="2">4. Cyber Security Test</td></tr><tr><td colspan="2">The Applicant should explain how to address cyber security issues arising from the adoption of the proposed innovations and technological achievements and state the relevant testing method, the industrial standard to be adopted and the expected results. The Applicant may leave this part blank if cyber security test is not applicable to the proposed project.</td></tr><tr><td>Cyber Security Test method</td><td>Expected results</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td colspan="2">I/we \( \square \) will / \( \square \) will not engage an independent party for carrying out Cyber Security Test on inspecting and mitigating cyber security issues arising from the adoption of the proposed innovations and technological achievements.</td></tr></table>
 
-<table><tr><td colspan="2">1. Please provide the name, qualification, experience and past achievements of the following key project team members.</td></tr><tr><td>Principal Investigator / Project Director* (Maximum 1 person only) <br> *Delete as appropriate</td><td>Name: <br> Qualification, experience and past achievements:</td></tr><tr><td>Project Manager (Maximum 1 person only)</td><td>Name: <br> Qualification, experience and past achievements:</td></tr><tr><td>Team Leader(s)</td><td>Name: <br> Qualification, experience and past achievements:</td></tr><tr><td>Specialist(s)</td><td>Name: <br> Qualification, experience and past achievements:</td></tr></table>
+<table><tr><td colspan="2">1. Please provide the name, qualification, experience and past achievements of the following key project team members.</td></tr><tr><td>Principal Investigator / Project Director* (Maximum 1 person only) <br> *Delete as appropriate</td><td>Name: Sylvia Ying HE <br> Qualification, experience and past achievements:</td></tr><tr><td>Project Manager (Maximum 1 person only)</td><td>Name: Da LEI <br> Qualification, experience and past achievements:</td></tr><tr><td>Team Leader(s)</td><td>Name: <br> Qualification, experience and past achievements:</td></tr><tr><td>Specialist(s)</td><td>Name: <br> Qualification, experience and past achievements:</td></tr></table>
 
 (a) Please advise whether there are any completed or on-going non-Smart Traffic Fund projects in the same/related areas undertaken by the key project team members.
 
-<table><tr><td colspan="4">___ <br> Yes. (Please set out details of the project as follows.)</td></tr><tr><td>Project Title</td><td>Brief descriptions, hurdles resolved and key deliverables</td><td>Commencement Date</td><td>Completion Date</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="4">mono rs. <br> Yes. (Please set out details of the project as follows.)</td></tr><tr><td>Project Title</td><td>Brief descriptions, hurdles resolved and key deliverables</td><td>Commencement Date</td><td>Completion Date</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
 
 No
 
@@ -308,7 +272,7 @@ Note:
 
 1. For Public Sector Research Institutions Applicant, please indicate by labelling with @ the equipment to be covered by in-kind contribution
 
-<table id="cross-table-2"><tr><td colspan="5">Other Direct Costs (c)</td></tr><tr><td>Item</td><td>Quantity</td><td>Unit cost (HK\$’000)</td><td>Total (HK\$’000)</td><td>Justifications (e.g. Why essential for the project; for promotional and travelling cost items, please provide name and detail arrangement of promotional activities, frequency and means of travelling, etc.)</td></tr><tr></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table id="cross-table-5"><tr><td colspan="5">Other Direct Costs (c)</td></tr><tr><td>Item</td><td>Quantity</td><td>Unit cost (HK\$’000)</td><td>Total (HK\$’000)</td><td>Justifications (e.g. Why essential for the project; for promotional and travelling cost items, please provide name and detail arrangement of promotional activities, frequency and means of travelling, etc.)</td></tr><tr></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 Note:
 
@@ -320,9 +284,9 @@ Note:
 
 Note: The administrative overheads to be included in the project budget can be at most 15% of the funding requested (net of overheads). Please refer to Guide to Application for detail calculations.
 
-<table id="cross-table-3"><tr><td colspan="3">Estimated Project Income to be Received During Project Period (B)</td></tr><tr><td colspan="3">Please list all the estimated income (e.g. licence fees, royalties, etc.) to be received, if any, and provide breakdown of each item and the basis of estimation in the following sections.</td></tr><tr><td>Source of Income</td><td>Basis of Projection / Assumptions</td><td>Amount (HK\$’000)</td></tr><tr></tr><tr><td></td><td>Total:</td><td></td></tr></table>
+<table id="cross-table-6"><tr><td colspan="3">Estimated Project Income to be Received During Project Period (B)</td></tr><tr><td colspan="3">Please list all the estimated income (e.g. licence fees, royalties, etc.) to be received, if any, and provide breakdown of each item and the basis of estimation in the following sections.</td></tr><tr><td>Source of Income</td><td>Basis of Projection / Assumptions</td><td>Amount (HK\$’000)</td></tr><tr></tr><tr><td></td><td>Total:</td><td></td></tr></table>
 
-<table><tr><td colspan="5">Sponsorship (C)</td></tr><tr><td>Name of Sponsor</td><td>Cash Sponsorship (HK\$’000)</td><td>Details (e.g. description of equipment/ consumables and basis of conversion to cash value)7</td><td>Cash Equivalent (HK\$’000)</td><td>Total (HK\$’000)</td></tr><tr><td colspan="5">Local</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="5">Non-Local</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="5">Sponsorship (C)</td></tr><tr><td>Name of Sponsor</td><td>Cash Sponsorship (HK\$’000)</td><td>Details (e.g. description of equipment/ consumables and basis of conversion to cash value)7</td><td>Cash Equivalent (HK\$’000)</td><td>Total (HK\$’000)</td></tr><tr><td colspan="5">Local</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="5">Non-Local</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 Total
 
@@ -336,9 +300,9 @@ Total
 
 <table><tr><td></td><td>(Please indicate whether to be contributed as cash / in-kind contribution)</td></tr><tr><td>Applicant's cash contribution (E)</td><td></td></tr><tr><td>Applicant's in-kind contribution (expressed in cash equivalent) (F)</td><td></td></tr><tr><td>Applicant’s Contribution (D) \( = \left( \mathrm{C}\right)  + \left( \mathrm{E}\right)  + \left( \mathrm{F}\right) \)</td><td></td></tr></table>
 
-<table><tr><td></td><td>Amount (HK\$’000)</td></tr><tr><td>Total Estimated Expenditure (A)</td><td></td></tr><tr><td>Estimated Project Income (B)</td><td></td></tr><tr><td>Estimated Project Cost (G) = (A) – (B)</td><td></td></tr><tr><td>Applicant's Contribution (D)</td><td></td></tr><tr><td>Funding Requested = (G) - (D)</td><td></td></tr></table>
+<table><tr><td></td><td>Amount (HK\$’000)</td></tr><tr><td>Total Estimated Expenditure (A)</td><td></td></tr><tr><td>Estimated Project Income (B)</td><td></td></tr><tr><td>Estimated Project Cost (G) = (A) – (B)</td><td></td></tr><tr><td>Applicant's Contribution (D)</td><td></td></tr><tr><td>Funding Requested \( = \left( \mathrm{G}\right)  - \left( \mathrm{D}\right) \)</td><td></td></tr></table>
 
-<table><tr><td colspan="8">2. Breakdown of the Estimated Project Cost By Milestones</td></tr><tr><td rowspan="2">Expenditure Item</td><td colspan="6">Expenditure (HK\$)</td><td>Total (HK\$’000)</td></tr><tr><td>Milestone</td><td>Milestone</td><td>Milestone</td><td>Milestone</td><td>Milestone</td><td>Milestone8</td><td></td></tr><tr><td colspan="8">Manpower8</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Subtotal</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="8">Equipment8</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Subtotal</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="8">2. Breakdown of the Estimated Project Cost By Milestones</td></tr><tr><td rowspan="2">Expenditure Item</td><td colspan="6">Expenditure (HK\$)</td><td>Total (HK\$’000)</td></tr><tr><td>Milestone</td><td>Milestone</td><td>Milestone</td><td>Milestone</td><td>Milestone</td><td>Milestone \( {}^{8} \)</td><td></td></tr><tr><td colspan="8">Manpower8</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Subtotal</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="8">Equipment8</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Subtotal</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 8 Please list the manpower, equipment and other direct costs in accordance with Part VIII Section 1(a), 1(b) and 1(c) above respectively.
 
