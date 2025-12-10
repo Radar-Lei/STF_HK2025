@@ -13,7 +13,7 @@
                 <mxCell id="node-3-1" value="&lt;b&gt;Multi-Source Traffic Data Integration &amp;amp; Intelligent Processing&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
                     <mxGeometry x="89" y="273" width="340" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-1-sources" value="&lt;b&gt;Data Sources&lt;/b&gt;&lt;br&gt;CCTV, LiDAR, OSM roads, incident text, ride-hailing logs &amp;amp; policy docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-1-sources" value="&lt;b&gt;Data Sources&lt;/b&gt;&lt;br&gt;CCTV,  OSM roads, incident text, ride-hailing logs &amp;amp; policy docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="260" width="260" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="n-3-1-preprocess" value="&lt;b&gt;Preprocess &amp;amp; Feature Extraction&lt;/b&gt;&lt;br&gt;Clean, align space-time, derive flow/speed/density + supply-demand signals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
