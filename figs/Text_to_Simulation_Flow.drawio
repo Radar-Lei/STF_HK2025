@@ -1,88 +1,88 @@
 <mxfile host="65bd71144e">
     <diagram id="diagram-text-to-simulation" name="Text-to-Simulation Flow">
-        <mxGraphModel dx="412" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+        <mxGraphModel dx="763" dy="1032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="title-proposal" value="&lt;b&gt;LLM-Enhanced Smart Mobility Simulation Platform for Ride-Hailing Policy Analysis in Hong Kong&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#0d47a1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+                <mxCell id="title-proposal" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;LLM-Enhanced Smart Mobility Simulation Platform for Ride-Hailing Policy Analysis in Hong Kong&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1565c0;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#0d47a1;align=center;verticalAlign=middle;" parent="1" vertex="1">
                     <mxGeometry x="100" y="40" width="940" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="node-objectives" value="&lt;b&gt;Objectives&lt;/b&gt;&lt;br&gt;LLM interface to democratize traffic simulation; auto-generate &amp;amp; analyze HK scenarios; assess congestion impacts of ride-hailing licensing, caps, fares, data-sharing; cut congestion/emissions and improve safety." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;strokeWidth=2;fontSize=15;fontStyle=1;fontColor=#bf360c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                <mxCell id="node-objectives" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;Objectives: Mobility Digital Twin with Living Data-Linked Citywide Simulation&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;LLM interface to democratize traffic simulation; auto-generate &amp;amp; analyze HK scenarios; assess congestion impacts of ride-hailing licensing, caps, fares, data-sharing; cut congestion/emissions.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#bf360c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
                     <mxGeometry x="100" y="140" width="940" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="node-3-1" value="&lt;b&gt;Multi-Source Traffic Data Integration &amp;amp; Intelligent Processing&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                <mxCell id="node-3-1" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;Multi-Source Traffic Data Integration &amp;amp; Intelligent Processing&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#2e7d32;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
                     <mxGeometry x="89" y="273" width="340" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-1-sources" value="&lt;b&gt;Data Sources&lt;/b&gt;&lt;br&gt;CCTV,  OSM roads, incident text, ride-hailing logs &amp;amp; policy docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-1-sources" value="&lt;b&gt;Data Sources&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;CCTV,  OSM roads, ride-hailing logs &amp;amp; policy docs&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="260" width="260" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-1-preprocess" value="&lt;b&gt;Preprocess &amp;amp; Feature Extraction&lt;/b&gt;&lt;br&gt;Clean, align space-time, derive flow/speed/density + supply-demand signals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-1-preprocess" value="&lt;b&gt;Preprocess &amp;amp; Feature Extraction&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Clean, align space-time, derive flow/speed/density + supply-demand signals&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="750" y="260" width="290" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-1-anomaly" value="&lt;b&gt;Anomaly &amp;amp; Surge Detection&lt;/b&gt;&lt;br&gt;LLM context flags incidents, special events, surge/supply gaps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-1-anomaly" value="&lt;b&gt;Anomaly &amp;amp; Surge Detection&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;LLM context flags incidents, special events, surge/supply gaps&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="340" width="260" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-1-digitaltwin" value="&lt;b&gt;HK Digital Twin Update&lt;/b&gt;&lt;br&gt;Continuous network &amp;amp; traffic state refresh incl. platform signals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-1-digitaltwin" value="&lt;b&gt;HK Digital Twin Update&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Continuous network &amp;amp; traffic state refresh incl. platform signals&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#43a047;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1b5e20;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="750" y="340" width="290" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="node-3-2" value="&lt;b&gt;Multi-Agent Text-to-Simulation Architecture &amp;amp; Platform Integration&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                <mxCell id="node-3-2" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;Multi-Agent Text-to-Simulation Architecture &amp;amp; Platform Integration&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
                     <mxGeometry x="89" y="453" width="340" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-2-planner" value="&lt;b&gt;Planner Agent&lt;/b&gt;&lt;br&gt;Parse simulation intents, plan tool calls" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-2-planner" value="&lt;b&gt;Planner Agent&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Parse simulation intents, plan tool calls&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="440" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-2-tools" value="&lt;b&gt;Tool Layer / APIs&lt;/b&gt;&lt;br&gt;SUMO adapters, data retrieval, validation utilities" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-2-tools" value="&lt;b&gt;Tool Layer / APIs&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Simulation platform adapters, data retrieval, validation utilities&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="710" y="440" width="330" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-2-state" value="&lt;b&gt;State Management&lt;/b&gt;&lt;br&gt;Workflow coordination, context memory, error recovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-2-state" value="&lt;b&gt;State Management&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Workflow coordination, context memory, error recovery&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="520" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-2-io" value="&lt;b&gt;Bidirectional I/O&lt;/b&gt;&lt;br&gt;User NL policy asks → structured commands; simulation outputs → NL summaries &amp;amp; dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-2-io" value="&lt;b&gt;Bidirectional I/O&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;User NL policy asks → structured commands; simulation outputs → NL summaries &amp;amp; dashboards&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7edf9;strokeColor=#8e24aa;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#4a148c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="710" y="520" width="330" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="node-3-3" value="&lt;b&gt;Domain-Specific LLM Fine-Tuning for Simulation Modules&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#303f9f;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                <mxCell id="node-3-3" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;Domain-Specific LLM Fine-Tuning for Simulation Modules&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#303f9f;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
                     <mxGeometry x="89" y="647" width="340" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-3-network" value="&lt;b&gt;Network Generation&lt;/b&gt;&lt;br&gt;Parse OSM, junction logic, lane configs, PUDO/curb rules" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-3-network" value="&lt;b&gt;Network Generation&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Parse OSM, junction logic, lane configs, PUDO/curb rules&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="608" width="230" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-3-poi" value="&lt;b&gt;POI / AOI Generation&lt;/b&gt;&lt;br&gt;Ride-hailing hotspots: CBD, MTR, airport, events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-3-poi" value="&lt;b&gt;POI / AOI Generation&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Ride-hailing hotspots: CBD, MTR, airport, events&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="720" y="608" width="320" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-3-demand" value="&lt;b&gt;Travel Demand &amp;amp; Elasticity&lt;/b&gt;&lt;br&gt;OD matrices, chains, ride-hailing legalization/fare-cap responses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-3-demand" value="&lt;b&gt;Travel Demand &amp;amp; Elasticity&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;OD matrices, chains, ride-hailing legalization/fare-cap responses&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="678" width="230" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-3-routing" value="&lt;b&gt;Routing &amp;amp; Assignment&lt;/b&gt;&lt;br&gt;Paths incl. platform dispatch/rebalancing; tunnel/bridge constraints" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-3-routing" value="&lt;b&gt;Routing &amp;amp; Assignment&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Paths incl. platform dispatch/rebalancing; tunnel/bridge constraints&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="720" y="678" width="320" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-3-signals" value="&lt;b&gt;Signal &amp;amp; Curb Management&lt;/b&gt;&lt;br&gt;Plans, PT priority, adaptive logic, pick-up/drop-off control" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                <mxCell id="n-3-3-signals" value="&lt;b&gt;Signal &amp;amp; Curb Management&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Plans, PT priority, adaptive logic, pick-up/drop-off control&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f1fb;strokeColor=#3949ab;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1a237e;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="748" width="570" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="node-3-4" value="&lt;b&gt;Ride-Hailing Driver &amp;amp; Passenger Behavioral Survey&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0288d1;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#01579b;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
+                <mxCell id="node-3-4" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;Ride-Hailing Driver &amp;amp; Passenger Behavioral Survey&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0288d1;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#01579b;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
                     <mxGeometry x="89" y="835" width="340" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-4-supply" value="&lt;b&gt;Supply-Side&lt;/b&gt;&lt;br&gt;Entry after legalization, full/part-time availability, repositioning, surge response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f7ff;strokeColor=#039be5;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#01579b;align=left;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+                <mxCell id="n-3-4-supply" value="&lt;b&gt;Supply-Side&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Entry after legalization, full/part-time availability, repositioning, surge response&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f7ff;strokeColor=#039be5;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#01579b;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="826" width="280" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-4-demand" value="&lt;b&gt;Demand-Side&lt;/b&gt;&lt;br&gt;Trip purpose, frequency, waiting tolerance, price sensitivity, mode shift under caps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f7ff;strokeColor=#039be5;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#01579b;align=left;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-                    <mxGeometry x="780" y="826" width="260" height="60" as="geometry"/>
+                <mxCell id="n-3-4-demand" value="&lt;b&gt;Demand-Side&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Trip purpose, frequency, waiting tolerance, price sensitivity, mode shift under caps&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f7ff;strokeColor=#039be5;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#01579b;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="826" width="280" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-4-params" value="&lt;b&gt;Behavior → Simulation Params&lt;/b&gt;&lt;br&gt;Supply curves, OD shifts, wait-time &amp;amp; price elasticity for policy scenarios" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f7ff;strokeColor=#039be5;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#01579b;align=left;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+                <mxCell id="n-3-4-params" value="&lt;b&gt;Behavior → Simulation Params&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Supply curves, OD shifts, wait-time &amp;amp; price elasticity for policy scenarios&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f7ff;strokeColor=#039be5;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#01579b;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="903" width="570" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="node-3-5" value="&lt;b&gt;Simulation Validation &amp;amp; Evaluation&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=10;" vertex="1" parent="1">
+                <mxCell id="node-3-5" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;Simulation Validation &amp;amp; Evaluation&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;strokeWidth=2;fontSize=18;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=10;" parent="1" vertex="1">
                     <mxGeometry x="89" y="981" width="340" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-5-quant" value="&lt;b&gt;Quantitative Calibration&lt;/b&gt;&lt;br&gt;Compare travel time/speed/density with HK observations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+                <mxCell id="n-3-5-quant" value="&lt;b&gt;Quantitative Calibration&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Compare travel time/speed/density with HK observations&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="978" width="260" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-5-qual" value="&lt;b&gt;Qualitative Review&lt;/b&gt;&lt;br&gt;Expert realism checks for HK &amp;amp; ride-hailing behaviors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+                <mxCell id="n-3-5-qual" value="&lt;b&gt;Qualitative Review&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Expert realism checks for HK &amp;amp; ride-hailing behaviors&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="760" y="978" width="280" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-5-scenarios" value="&lt;b&gt;Scenario Evaluation&lt;/b&gt;&lt;br&gt;Ride-hailing licensing/caps/fares, signals, road space, new mobility" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+                <mxCell id="n-3-5-scenarios" value="&lt;b&gt;Scenario Evaluation&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Ride-hailing licensing/caps/fares, signals, road space, new mobility&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="470" y="1048" width="280" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="n-3-5-kpi" value="&lt;b&gt;Reporting&lt;/b&gt;&lt;br&gt;Travel time, VKT, emissions, accessibility dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+                <mxCell id="n-3-5-kpi" value="&lt;b&gt;Reporting&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Travel time, VKT, emissions, accessibility dashboards&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffecee;strokeColor=#d32f2f;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#b71c1c;align=left;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
                     <mxGeometry x="780" y="1048" width="260" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="edge-title-obj" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="title-proposal" target="node-objectives" edge="1">
@@ -97,7 +97,7 @@
                 <mxCell id="edge-3-3-3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="node-3-3" target="node-3-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="edge-3-4-3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" edge="1" parent="1" source="node-3-4" target="node-3-5">
+                <mxCell id="edge-3-4-3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#424242;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="node-3-4" target="node-3-5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="edge-3-1-sources-prep" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-1-sources" target="n-3-1-preprocess" edge="1">
@@ -106,13 +106,13 @@
                 <mxCell id="edge-3-1-anom-twin" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;" parent="1" source="n-3-1-anomaly" target="n-3-1-digitaltwin" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="edge-3-4-supply" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0288d1;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-4" target="n-3-4-supply">
+                <mxCell id="edge-3-4-supply" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0288d1;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-4" target="n-3-4-supply" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="430" y="890" as="sourcePoint"/>
                         <mxPoint x="470" y="850" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="edge-3-4-params" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0288d1;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="node-3-4" target="n-3-4-params">
+                <mxCell id="edge-3-4-params" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0288d1;strokeWidth=3;endArrow=classic;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="node-3-4" target="n-3-4-params" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="430" y="910" as="sourcePoint"/>
                         <mxPoint x="470" y="920" as="targetPoint"/>
@@ -188,6 +188,12 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="580" y="200" as="sourcePoint"/>
                         <mxPoint x="580" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0288d1;strokeWidth=3;endArrow=none;startArrow=none;jumpStyle=arc;jumpSize=6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startFill=0;endFill=0;" edge="1" parent="1" source="n-3-4-supply" target="n-3-4-demand">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="439" y="905" as="sourcePoint"/>
+                        <mxPoint x="480" y="866" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
