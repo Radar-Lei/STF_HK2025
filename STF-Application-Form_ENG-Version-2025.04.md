@@ -2,7 +2,7 @@ Smart Traffic Fund ("Fund") Application Form
 
 I. Project and Applicant Information
 
-<table><tr><td>Project Title (English):</td><td>LLM-Enhanced Smart Mobility Simulation Platform for Assessing Congestion Impacts of Ride-Hailing Policies in Hong Kong</td></tr><tr><td>Project Title (Chinese):</td><td>基於大型語言模型的智慧交通模擬平台: 評估香港網約車政策對交通擁堵的影響</td></tr></table>
+<table><tr><td>Project Title (English):</td><td>An LLM-Enhanced Mobility Digital Twin for Simulating and Assessing Congestion Impacts of Ride-Hailing Policies in Hong Kong</td></tr><tr><td>Project Title (Chinese):</td><td>一個基於大型語言模型的交通數字孿生平台及其應用於模擬和評估香港網約車政策對交通擁堵的影響</td></tr></table>
 
 <table><tr><td>Name of the Applicant (English):</td><td>The Chinese University of Hong Kong</td></tr><tr><td>Name of the Applicant (Chinese):</td><td></td></tr><tr><td>Date of Establishment: (DD / MM / YYYY)</td><td></td></tr><tr><td>Business Registration No. (if applicable):</td><td>N/A</td></tr><tr><td>Website(s) of the Applicant (if applicable):</td><td>https://www.cuhk.edu.hk</td></tr><tr><td>Address:</td><td>The Chinese University of Hong Kong Shatin, N.T., Hong Kong <br> This address is the actual location of the Applicant. <br> ☐ This address is for registration purpose only, the actual office location is:</td></tr><tr><td>Email Address:</td><td>N/A</td></tr><tr><td>Telephone Number:</td><td></td></tr><tr><td>No. of Employees in Hong Kong1:</td><td>Full Time: Part Time:</td></tr></table>
 
